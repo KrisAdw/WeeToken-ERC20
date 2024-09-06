@@ -7,10 +7,10 @@ import {WeeToken} from "src/WeeToken.sol";
 contract DeployToken is Script {
     uint256 public constant INITIAL_SUPPLY = 100 ether;
 
-    function run() external returns(WeeToken) {        
+    function run() external returns (WeeToken) {
         vm.startBroadcast();
         WeeToken weeToken = new WeeToken(INITIAL_SUPPLY);
-        vm.stopBroadcast();        
+        vm.stopBroadcast();
         return weeToken;
     }
 }
