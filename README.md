@@ -1,4 +1,4 @@
-# ERC20 Token - WeeCoin
+# ERC20 Token - WeeToken
 
 **This is the implementation of ERC20 Standard Token using Open Zeppelin with foundry framework**
 
